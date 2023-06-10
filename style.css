@@ -179,6 +179,9 @@ font-size: 18px;
 line-height: 24px;
 color: #E27B3A;
 }
+.text4:hover{
+    color: rgb(41, 41, 41);
+}
 /* 2 */
 .card2 {
     box-sizing: border-box;
@@ -249,6 +252,9 @@ font-size: 18px;
 line-height: 24px;
 color: #E27B3A;
 }
+.text7:hover{
+    color: rgb(41, 41, 41);
+}
 /* 3 */
 .card3 {
     box-sizing: border-box;
@@ -318,6 +324,9 @@ font-size: 18px;
 line-height: 24px;
 color: #E27B3A;
 }
+.text10:hover{
+    color: rgb(41, 41, 41);
+}
 .text11{
     position: absolute;
 width: 505px;
@@ -383,29 +392,24 @@ mix-blend-mode: darken;
 }
 .text13{
     position: absolute;
-width: 555px;
-height: 40px;
-left: 182px;
-top: 1806px;
-font-family: 'Poppins';
-font-style: normal;
+margin-top: 79%;
+margin-left: 30%;
+    font-family: 'Roboto';
+text-align: center;
 font-weight: 500;
 font-size: 25px;
 line-height: 38px;
-text-align: center;
 color: #170C04;
 }
 .text14{
-    position: absolute;
-width: 555px;
-height: 40px;
-left: 0px;
-top: 397px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 25px;
-line-height: 38px;
+margin-top: 87%;
+    font-family: 'Roboto';
+font-weight: 100;
+font-size: 16px;
+line-height: 19px;
 text-align: center;
-color: #170C04;
+color: #E27B3A;
+}
+.text14:hover{
+    color: #170C04;
 }
