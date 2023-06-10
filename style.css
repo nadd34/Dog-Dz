@@ -356,3 +356,56 @@ top: 1411px;
 background: #fee9da;
 border-radius: 20px;
 }
+.cardd2{
+    position: absolute;
+    width: 555px;
+    height: 420px;
+    left:812px;
+    top: 1411px;
+    background: #fee9da;
+    border-radius: 20px;
+}
+.collar{
+    position: absolute;
+width: 373px;
+height: 278px;
+left: 93px;
+top:92px;
+mix-blend-mode: darken;
+}
+.collar2{
+position: absolute;
+width: 304px;
+height: 304px;
+left: 126px;
+top:92px;
+mix-blend-mode: darken;
+}
+.text13{
+    position: absolute;
+width: 555px;
+height: 40px;
+left: 182px;
+top: 1806px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 38px;
+text-align: center;
+color: #170C04;
+}
+.text14{
+    position: absolute;
+width: 555px;
+height: 40px;
+left: 0px;
+top: 397px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 38px;
+text-align: center;
+color: #170C04;
+}
