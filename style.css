@@ -413,3 +413,89 @@ color: #E27B3A;
 .text14:hover{
     color: #170C04;
 }
+.container4 {
+    display: flex;
+    margin-top: 130%;
+    margin-left: 15%;
+  }
+  
+  .box {
+    width: 355px;
+    height: 250px;
+    background: #fee9da;
+    border-radius: 20px;
+    margin-right: 20px;
+  }
+  /* .box:last-child {
+    margin-right: 0;
+  } */
+ 
+  .photo1{
+    /* align-items: center; */
+    margin-left:10%;
+    margin-top: -5%;
+  }
+  .photo2{
+    align-items: center;
+    margin-left:17%;
+    margin-top: 10%;
+  }
+  .photo{
+    align-items: center;
+    margin-left:15%;
+    margin-top: 19%;
+  }
+  .text15{
+    font-family: 'Roboto';
+    text-align: center;
+    font-size: 25px;
+    line-height: 38px;
+    color: #170C04;
+  }
+  .text16{
+    margin-top: 24%;
+    font-family: 'Roboto';
+    text-align: center;
+    font-size: 25px;
+    line-height: 38px;
+    color: #170C04;
+  }
+  .text17{
+    margin-top: 17%;
+    font-family: 'Roboto';
+    text-align: center;
+    font-size: 25px;
+    line-height: 38px;
+    color: #170C04;
+  }
+  .text18{
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #E27B3A;
+  }
+  .text18:hover{
+    color: #170C04;
+  }
+  .btn-orange{
+    box-sizing: border-box;
+    width: 150px;
+    height: 40px;
+    margin-top: 17%;
+    margin-left: 46%;
+border: 1px solid #ffd4b9;
+border-radius: 4px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #ec8545;
+  }
+  .btn-orange:hover{
+    color: #f3f0f0;
+    border: 1px solid #eb6c1c;
+    background-color: #ec8545;
+    opacity: 0.5;
+  }
