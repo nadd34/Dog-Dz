@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: auto;
+    background: #efeeee;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #efeeee;
+  }
+  .logo1{
+    font-size: 18px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-left: 50px;
+  }
+  .logo img {
+    width: 30px;
+    margin-right: 10px;
+  }
+  .menu-item {
+    display: inline-block;
+padding-right:70px;
+  }
+  .menu-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    padding-right:58px;
+  margin-left: 30px;
+  color: #170C04;
+  }
+  .menu-text:hover{
+    color: #E27B3A;
+  }
+.Rectangle{
+    position: absolute;
+    width: 514px;
+    height: 733px;
+    left: 1005px;
+    top: 0px;
+}
