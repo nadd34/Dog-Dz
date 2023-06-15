@@ -499,3 +499,100 @@ color: #ec8545;
     background-color: #ec8545;
     opacity: 0.5;
   }
+
+ 
+  .container5 {
+    display: flex;
+    align-items: center;
+    border-radius: 20px 0 0 20px;
+    padding: 10px;
+    margin-left: 280px;
+    margin-top: 100px;
+}
+
+.text {
+    margin: 10px;
+}
+
+.text19 {
+    margin-left: 120px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #E27B3A;
+    opacity: 0.8;
+}
+
+.text20 {
+    width: 380px;
+    margin-left: 120px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 33.25px;
+    line-height: 31px;
+    color: #170C04;
+}
+
+.text21 {
+    width: 397px;
+    margin-left: 120px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #170C04;
+    opacity: 0.6;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: -90px;
+    margin-left: 520px;
+}
+
+.button01 {
+    margin: 10px;
+    width: 189px;
+    height: 48px;
+    background: #E27B3A;
+    border-radius: 24px;
+    cursor: pointer;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+border: none;
+}
+.button01:hover{
+    background: #f3a879;
+    color: white;
+}
+.button02 {
+    margin: 10px;
+    width: 189px;
+    height: 48px;
+    box-sizing: border-box;
+    border: 1px solid #fbdac6;
+    border-radius: 24px;
+    cursor: pointer;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #E27B3A;
+}
+.button02:hover{
+    color: #f3f0f0;
+    border: 1px solid #eb6c1c;
+    background-color: #ec8545;
+    opacity: 0.5;
+}
