@@ -684,6 +684,9 @@ opacity: 0.6;
     border: none;
     cursor: pointer;
 }
+.button:hover{
+   color: #170C04;
+}
 .btn0container{
     width: 131px;
 height: 48px;
@@ -697,4 +700,112 @@ font-weight: 400;
 font-size: 16px;
 line-height: 24px;
 color: #FFFFFF;
+}
+.btn0container:hover{
+    background-color: #fbaa77;
+}
+
+.main-text{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 36.25px;
+line-height: 45px;
+margin-left: 260px;
+color: #170C04;
+}
+.text0{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 200;
+font-size: 17px;
+width: 520px;
+margin-left: 160px;
+color: #170C04;
+opacity: 0.6;
+text-align: center;
+}
+.photo1{
+    position: absolute;
+    width: 266px;
+    height: 180px;
+    background: #ffdede;
+   margin-top: 20px;
+    border-radius: 7px;
+    text-align: center;
+}
+.phott{
+    margin-top: 50px;
+}
+.photo2{
+    position: absolute;
+    width: 262px;
+    height: 180px;
+    left: 184px;
+    top: 4204px;
+    background: #d3ddf8;
+    border-radius: 5px;
+}
+.phott2{
+    margin-top: 45px;
+    width: 170px;
+    height: 110px;
+    margin-left: 40px;
+}
+.photto3{
+    position: absolute;
+    width: 262px;
+    height: 170px;
+    left: 152px;
+    top: 4549px;
+    background: #ffdede;
+    border-radius: 5px;
+}
+.phottt3{
+    margin-top: 45px;
+    width: 170px;
+    height: 110px;
+    margin-left: 40px;
+}
+.phottto4{
+    position: absolute;
+width: 262px;
+height: 170px;
+left: 442px;
+top: 4549px;
+background: #fdf6fa;
+border-radius: 5px;
+}
+.phottt4{
+    margin-top: 45px;
+    width: 170px;
+    height: 110px;
+    margin-left: 40px; 
+}
+.photo-large{
+    position: absolute;
+width: 555px;
+height: 509px;
+left: 767px;
+top: 4210px;
+background: #ffdede;
+border-radius: 10px;
+}
+.phottt5{
+    margin-top: 45px;
+    margin-left: 60px; 
+}
+
+.main-text2{
+    width: 342px;
+height: 46px;
+left: 581px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 32.25px;
+line-height: 45px;
+text-align: center;
+color: #170C04;
 }
