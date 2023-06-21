@@ -816,17 +816,17 @@ margin-left: 635px;
     background: #f6f5f5;
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.06);
     border-radius: 10px;
-    position: relative; /* Додаємо позицію relative для внутрішніх елементів */
+    position: relative; 
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    padding: 20px; /* Полівка навколо контейнера */
+    padding: 20px; 
     flex-direction: column;
   }
   
   .center-image {
     display: block;
-    margin: 0 auto; /* Центрує фотографію у контейнері */
+    margin: 0 auto; 
     margin-top: 10%;
 margin-left: 45%;
     width: 35px;
@@ -836,19 +836,19 @@ margin-left: 45%;
   .left-icon {
     position: absolute;
     margin-bottom: 30%;
-    left: 10px; /* Відступ зліва */
-    transform: translateY(-50%); /* Коригує положення іконки по вертикалі */
+    left: 10px; 
+    transform: translateY(-50%); 
   }
   
   .right-icon {
     position: absolute;
-    right: 10px; /* Відступ справа */
-    bottom: 10px; /* Відступ знизу */
+    right: 10px; 
+    bottom: 10px;
     opacity: 0.05;
   }
   .text-gray{
-    text-align: center; /* Вирівнювання тексту по центру */
-    margin-bottom: 80px; /* Додатковий відступ зверху для тексту */
+    text-align: center; 
+    margin-bottom: 80px; 
     margin-right: 20px;
     font-family: 'Roboto';
 font-style: normal;
@@ -891,7 +891,7 @@ opacity: 0.6;
     width: 1140px;
     height: 346px;
     margin-left: 200px;
-    margin-top: 110px; /* Зміщення контейнера вище на 200px */
+    margin-top: 110px;
     background: #2E96FF;
     border-radius: 10px;
   }
@@ -951,7 +951,79 @@ opacity: 0.6;
   .email-form button:hover{
     background-color: #fb9c60;
   }
-
+  .footer {
+    background-color: #000000;
+    padding: 20px;
+    color: #FFFFFF;
+    margin-top: 100px;
+    display: flex;
+  }
+  
+  .footer-left, .footer-center, .footer-right {
+    flex: 1;
+  }
+  
+  .footer-left p, .footer-right p {
+    margin: 0;
+  }
+  .footer-left{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height:38px;
+padding-left: 170px;
+margin-top: 60px;
+    color: #FFFFFF;
+    opacity: 0.8;
+  }
+  .icon-frame {
+    width: 30px;
+    height: 30px;
+    border: 2px solid rgb(195, 194, 194);
+    background-color: rgb(206, 206, 206);
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 56px;
+    margin-top: 60px;
+    cursor: pointer;
+  }
+  .icon-frame:hover{
+    background-color: rgb(255, 254, 254);
+  }
+  
+  .icon-frame:last-child {
+    margin-right: 0;
+  }
+  .logo-center{
+  padding-right: 50px;
+  }
+  .icon-frame img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .footer-center img {
+    display: block;
+    margin: 0 auto;
+  }
+  .footer-right{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height:38px;
+    padding-right: 150px;
+    text-align: right;
+    color: #FFFFFF;
+    opacity: 0.8;
+    margin-top: 60px;
+  }
+  .footer-center h2 {
+    text-align: center;
+    margin-right: 50px;
+  }
 
 
   
